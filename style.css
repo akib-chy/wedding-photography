@@ -1,0 +1,32 @@
+body {
+  font-family: "Lora", serif;
+}
+h1 {
+  font-weight: 700;
+}
+.navbar-brand {
+  font-weight: 700;
+}
+.carousel-item {
+  height: 600px;
+}
+.fa-check {
+  background: rgba(82, 67, 194, 0.1037);
+  color: #5243c2;
+  border-radius: 50%;
+  font-size: 12px;
+  padding: 3px;
+}
+.hot-grid {
+  border-radius: 20px;
+  opacity: 0.9;
+  box-shadow: 0 15px 20px 2px #2279fbc7;
+  transform: translateY(-40px);
+  background-image: url(icons/watermark.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.hot-grid .fa-check {
+  color: #fff;
+  background: rgba(52, 52, 245, 0.521);
+}
